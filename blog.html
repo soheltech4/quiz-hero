@@ -10,7 +10,7 @@
 </head>
 <body>
     
-<section class="container mx-auto mt-10">
+<section class="container mx-auto mt-10 p-5">
     <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-5">
         <div class="collapse-title text-xl font-medium bg-green-500">
           1) Difference between map(), forEach(), filter() & find()
@@ -48,7 +48,7 @@
           4) Description of QuizTimer Function
         </div>
         <div class="collapse-content bg-green-100"> 
-          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+          <p>QuizTimer is a function that accepts a Dismiss parameter. First checks if the dismiss parameter is true, if true then clears the timer via clearInterval. Its calls setInterval and points to count with querySelector and it sets seconds to count name div. It continues every 1 second and every time it changes by one. If 60 seconds have passed, it removes the classLists of its red characters and adds the classLists of dark red text. And if it doesn't, remove the dark red text and add the light red text to the class list.</p>
         </div>
     </div>
     <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-5">
@@ -56,7 +56,7 @@
           5) Description of ChoseQuiz Function
         </div>
         <div class="collapse-content bg-green-100"> 
-          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+          <p>The chooseQuiz function takes 2 parameters. Then the find loop is executed on isExists and then it is checked whether it is true or not and 0 is taken as a locator variable. Then a for of loop is executed on each answer. Then if the id of isExist and the id of quiz are equal then answer is spliced and each time the serial is incremented by one. Otherwise the answer is pushed. And from here the answer is sent through DisplayAnswer.</p>
         </div>
     </div>
 </section>
